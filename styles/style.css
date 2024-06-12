@@ -1,0 +1,39 @@
+body {
+    --background-color: #ffffff;
+    --navbar-color: #BFDCE5;
+    --button-color: #526D82;
+    background-color: var(--background-color);
+}
+
+.bg-navbar-color {
+    background-color: var(--navbar-color);
+}
+
+.bg-button-color {
+    background-color: var(--button-color);
+    color: white;
+}
+
+.bg-text-color {
+    background-color: var(--navbar-color);
+    color: black !important;
+}
+
+.card-spacer {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.coord {
+    top: 40%;
+    left: 60%;
+}
+
+@media(max-width: 767px) {
+    .coord {
+        top: 30%;
+        left: 40%;
+    }
+}
